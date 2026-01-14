@@ -1,0 +1,92 @@
+## System level commands
+
+- uname
+-> uname is used to display information about the operating system currently in use.
+
+- uptime
+-> It is used to display how long the system has been running.
+
+- whoami
+-> It is used to display the currently logged-in-user.
+
+- who
+->  It is used to display users who are currently logged in to the system.
+
+- which
+-> It is used to display the full path of the command that is available in the system.
+
+- ID
+-> It used to display the user ID (UID) and group ID (GID) if the cureent user.
+
+- sudo
+-> sudo allows a permitted user to run a command as a superuser (root).
+
+- shutdown
+-> shutdown is used to power off the system in a safe manner.
+
+- reboot
+-> reboot is used to restart the system in a safe manner.
+
+- apt (advanced package tool)
+-> It is used to install, update, and remove packages in the system.
+-> linux has different application 
+ Examples: yum , dnf ,pacman ,portage.
+
+## User & Group Management
+
+- useradd
+-> useradd is used to create a new user and its home directory in the system.
+
+- passwd
+-> It is used  to set,change or update a user password in the system.
+
+- su
+-> It is used to switch the current user to  another user in the system.
+
+- groupadd
+-> groupadd is used to create a new group in the system.
+
+## File permission command
+
+- chmod
+-> chmod is used to change the permissions of files and directories.
+
+- umask
+-> umask defines the default permission mode for newly created files and directories.
+
+- chown
+-> chown is used to change the user and/or group ownership of files and directories.
+
+- chgrp
+-> chgrp is used to change the group ownership of files and directories.
+
+## compression command
+
+- zip
+-> zip is used to compress the files and directories into a zip archive.
+
+- unzip
+->  unzip is used to decompress and extract files from a zip archive.
+
+-  gunzip
+-> gunzip is used to decompress gzip-compressed files and restore them to their original form.
+
+## Networking & Transfer
+- scp (secure copy protocol)
+-> scp is used to transfer files and directories securely over a network using SSH.
+Examples: 
+Local → Remote
+    scp file.txt user@server:/home/user/
+Remote → Local
+    scp user@server:/home/user/file.txt  .
+
+
+- rsync
+-> rsync is used to efficiently copy and synchronize files and directories between systems or directories.
+Examples: 
+Local → Local
+ rsync -av source/ destination/
+Local → Remote
+ rsync -av source/ user@server:/home/user/
+Remote → Local
+ rsync -av user@server:/home/user/source/ .
