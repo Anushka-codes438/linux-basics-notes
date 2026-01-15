@@ -1,0 +1,57 @@
+## Networking Command
+
+- ping
+-> ping command is used to check the connectivity between two devices.
+
+- netstat
+-> netstat command is used to show active network connections and the status of ports on a system.
+
+- ifconfig
+-> ifconfig command is used to view network interface information such as IP address, MAC address, and status.
+
+- NIC (Network interface card)
+-> NIC is a network interface card that enables communication between a computer and a network.
+
+- Traceroute 
+-> traceroute command is used to trace the route and show all the intermediate hops between source and destination.
+
+- Tracepath
+-> tracepath command is used to trace the route and identify network hops between source and destination.
+
+- mtr
+-> mtr command combines the functionality of ping and traceroute to continuously monitor the network route and latency.
+
+- nslookup
+-> nslookup command is used to query DNS servers to obtain domain name or IP address information.
+
+- telnet
+-> telnet is a command used to remotely connect to another system over a network.
+
+- hostname
+-> hostname command is used to display the hostname of the system.
+
+- iwconfig
+-> iwconfig command is used to display and configure wireless network interfaces.
+
+- ss
+-> ss command is used to show information about active network connections, listening ports, and sockets.
+
+- domain
+-> A domain is a human-readable name used to identify a website, and DNS converts the domain name into an IP address.
+
+- dig (domain information groper)
+-> dig (Domain Information Groper) is a command used to retrieve DNS records such as IP address, name servers, and MX records.
+
+- nc (netcat)
+-> nc (netcat) is a networking utility used for debugging, testing, and transferring data between systems.
+
+- arp (Address Resolution Protocol)
+-> ARP (Address Resolution Protocol) is used to map IP addresses to MAC addresses on a local network.
+
+- ifplugstatus
+-> ifplugstatus command is used to show the link status of a network interface.
+
+
+
+
+
